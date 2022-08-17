@@ -39,8 +39,8 @@ async def app(ops_test: OpsTest, app_name: str, pytestconfig: Config):
     # Build and deploy the indico charm
     charm = await ops_test.build_charm(".")
     resources = {
-        "indico-image": pytestconfig.getoption("--indico-image"),
-        "indico-nginx-image": pytestconfig.getoption("--indico-nginx-image"),
+        "jsimpso-indico-image": pytestconfig.getoption("--indico-image"),
+        "jsimpso-indico-nginx-image": pytestconfig.getoption("--indico-nginx-image"),
     }
     application = await ops_test.model.deploy(
         charm, resources=resources, application_name=app_name

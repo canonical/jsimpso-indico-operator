@@ -9,18 +9,18 @@ description: |
   https://getindico.io/
 containers:
   indico:
-    resource: indico-image
+    resource: jsimpso-indico-image
   indico-nginx:
-    resource: indico-nginx-image
+    resource: jsimpso-indico-nginx-image
   indico-celery:
-    resource: indico-image
+    resource: jsimpso-indico-image
 
 resources:
-  indico-image:
+  jsimpso-indico-image:
     type: oci-image
     description: Docker image for Indico
     auto-fetch: true
-  indico-nginx-image:
+  jsimpso-indico-nginx-image:
     type: oci-image
     description: Docker image for nginx Indico
     auto-fetch: true

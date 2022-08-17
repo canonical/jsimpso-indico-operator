@@ -45,7 +45,7 @@ jobs:
       - uses: ./.github/actions/publish_oci_resource
         with:
           charm-name: indico
-          resource-name: indico-image
+          resource-name: jsimpso-indico-image
           charmhub-token: ${{ secrets.CHARMHUB_TOKEN }}
   publish-indico-nginx-image:
     name: Publish nginx image to charmhub
