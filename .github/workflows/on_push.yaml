@@ -56,7 +56,7 @@ jobs:
       - uses: ./.github/actions/publish_oci_resource
         with:
           charm-name: indico
-          resource-name: indico-nginx-image
+          resource-name: jsimpso-indico-nginx-image
           charmhub-token: ${{ secrets.CHARMHUB_TOKEN }}
   select-channel:
     name: Select target channel

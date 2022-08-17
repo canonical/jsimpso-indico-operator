@@ -40,7 +40,7 @@ jobs:
       - uses: ./.github/actions/publish_oci_resource
         with:
           charm-name: jsimpso-indico-test
-          resource-name: indico-nginx-image
+          resource-name: jsimpso-indico-nginx-image
           charmhub-token: ${{ secrets.CHARMHUB_STAGING_TOKEN }}
   select-branch:
     name: Select target branch

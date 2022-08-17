@@ -48,7 +48,7 @@ jobs:
         id: build
         with:
           dockerfile: indico-nginx.Dockerfile
-          resource-name: indico-nginx-image
+          resource-name: jsimpso-indico-nginx-image
   integration-test-microk8s:
     name: Integration tests (microk8s)
     runs-on: ubuntu-latest
