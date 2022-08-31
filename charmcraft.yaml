@@ -1,10 +1,10 @@
 # Learn more about charmcraft.yaml configuration at:
 # https://juju.is/docs/sdk/charmcraft-config
 type: "charm"
-charmhub:
-  api-url: https://api.staging.charmhub.io
-  registry-url: https://registry.staging.jujucharms.com
-  storage-url: https://storage.staging.snapcraftcontent.com
+# charmhub:
+#   api-url: https://api.staging.charmhub.io
+#   registry-url: https://registry.staging.jujucharms.com
+#   storage-url: https://storage.staging.snapcraftcontent.com
 bases:
   - build-on:
     - name: "ubuntu"
