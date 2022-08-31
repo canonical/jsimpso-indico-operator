@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Marker - I
+
 # Copyright 2022 Canonical Ltd.
 # Licensed under the GPLv3, see LICENCE file for details.
 
@@ -431,3 +433,4 @@ class IndicoOperatorCharm(CharmBase):
 
 if __name__ == "__main__":
     main(IndicoOperatorCharm, use_juju_for_storage=True)
+
