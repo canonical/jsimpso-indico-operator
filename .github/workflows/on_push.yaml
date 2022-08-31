@@ -21,9 +21,9 @@ jobs:
           credentials: ${{ secrets.CHARMHUB_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
   
-  # tests:
-  #   name: Run Tests
-  #   uses: ./.github/workflows/ci.yaml
+  tests:
+    name: Run Tests
+    uses: ./.github/workflows/ci.yaml
   
   publish-indico-image:
     name: Publish indico image to charmhub
