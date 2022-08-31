@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-# Marker - I
-
 # Copyright 2022 Canonical Ltd.
 # Licensed under the GPLv3, see LICENCE file for details.
+# Marker - I
 
 """Charm for Indico on kubernetes."""
 import logging
