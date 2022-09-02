@@ -2,7 +2,7 @@
 
 # Copyright 2022 Canonical Ltd.
 # Licensed under the GPLv3, see LICENCE file for details.
-# Marker - VI
+# Marker - VII
 
 """Charm for Indico on kubernetes."""
 import logging
